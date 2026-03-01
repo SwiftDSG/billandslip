@@ -1,9 +1,6 @@
 # Rust build output
 /target/
 
-# Data store (runtime-generated, contains live HR data)
-data/store.json
-
 # Fonts (large binaries — add manually after cloning)
 assets/fonts/
 

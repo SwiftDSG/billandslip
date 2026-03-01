@@ -1,0 +1,499 @@
+{
+  "employees": [
+    {
+      "nik": "3271062612000018",
+      "nama": "Dylan Eldiyano Ramadhan",
+      "jabatan": "Analyst",
+      "gaji_pokok": 18000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [
+        {
+          "name": "Apartment",
+          "amount": 2500000
+        }
+      ],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3402122812860002",
+      "nama": "Berlianagara A. H",
+      "jabatan": "Analyst",
+      "gaji_pokok": 6000000,
+      "tunjangan": 220000,
+      "status_ptkp": "K/3",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "0000000000000000",
+      "nama": "Zwin",
+      "jabatan": "Analyst",
+      "gaji_pokok": 5730000,
+      "tunjangan": 220000,
+      "status_ptkp": "",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "3578105610980006",
+      "nama": "Nabilla Firdaus Palesta Lihawa",
+      "jabatan": "Finance",
+      "gaji_pokok": 7000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3509066607020002",
+      "nama": "Fiagem Dwi Woro Bahwani",
+      "jabatan": "Personal Assistant",
+      "gaji_pokok": 5000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "3516132404020001",
+      "nama": "Alfian Dwi Nugraha",
+      "jabatan": "IT/Programmer",
+      "gaji_pokok": 7000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3506251905960002",
+      "nama": "Masrukin",
+      "jabatan": "Media",
+      "gaji_pokok": 7000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3509031207020013",
+      "nama": "Bowo Prayoga",
+      "jabatan": "Media",
+      "gaji_pokok": 5000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "1802180809010001",
+      "nama": "Satria Baladewa Harahap",
+      "jabatan": "Media",
+      "gaji_pokok": 5000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3515182611990006",
+      "nama": "Rudi Ardi Hamzah",
+      "jabatan": "Media",
+      "gaji_pokok": 4000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "3505101808040002",
+      "nama": "Muhammad Fariza Agustino",
+      "jabatan": "Media",
+      "gaji_pokok": 5000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "0000000000000001",
+      "nama": "Pendik",
+      "jabatan": "Media",
+      "gaji_pokok": 2500000,
+      "tunjangan": 220000,
+      "status_ptkp": "",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "3523037103030001",
+      "nama": "Meysa Mahfudhoh",
+      "jabatan": "Media",
+      "gaji_pokok": 3500000,
+      "tunjangan": 220000,
+      "status_ptkp": "",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "3515153107010001",
+      "nama": "M. Rizqi R.",
+      "jabatan": "Media",
+      "gaji_pokok": 2500000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "6201026602010003",
+      "nama": "Florencia Irena",
+      "jabatan": "Marketing - Visual Design",
+      "gaji_pokok": 5000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3509050202010002",
+      "nama": "Fahrul Muttaqin",
+      "jabatan": "Marketing - Visual Design",
+      "gaji_pokok": 4500000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3578030810010002",
+      "nama": "Abid Ariq Athallah",
+      "jabatan": "Marketing - Visual Design",
+      "gaji_pokok": 4000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3578012501030002",
+      "nama": "Bambang Adi",
+      "jabatan": "Marketing - Visual Design",
+      "gaji_pokok": 3230000,
+      "tunjangan": 220000,
+      "status_ptkp": "",
+      "fasilitas": [],
+      "is_bpjs_kes_member": false,
+      "is_bpjs_tk_member": false
+    },
+    {
+      "nik": "3522082502850005",
+      "nama": "Mochamad Soleh",
+      "jabatan": "Operasional",
+      "gaji_pokok": 4500000,
+      "tunjangan": 220000,
+      "status_ptkp": "K/2",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3524013107840001",
+      "nama": "Kamit",
+      "jabatan": "Operasional",
+      "gaji_pokok": 3500000,
+      "tunjangan": 220000,
+      "status_ptkp": "K/1",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": true
+    },
+    {
+      "nik": "3522081109070003",
+      "nama": "Galang Belvasya Septian",
+      "jabatan": "Operasional",
+      "gaji_pokok": 3000000,
+      "tunjangan": 220000,
+      "status_ptkp": "TK/0",
+      "fasilitas": [],
+      "is_bpjs_kes_member": true,
+      "is_bpjs_tk_member": false
+    }
+  ],
+  "payroll_configs": {
+    "2026-02": {
+      "period": "2026-02",
+      "period_label": "Februari 2026",
+      "hari_kerja": 19,
+      "uang_transport_mode": "flat",
+      "uang_transport_flat": 220000,
+      "uang_transport_per_hari": 0,
+      "uang_makan_per_hari": 25000,
+      "bpjs_kes_employee_rate": 0.01,
+      "bpjs_kes_employer_rate": 0.04,
+      "bpjs_kes_salary_cap": 5288796,
+      "bpjs_jht_employee_rate": 0.02,
+      "bpjs_jht_employer_rate": 0.037,
+      "bpjs_jkk_employer_rate": 0.0024,
+      "bpjs_jkm_employer_rate": 0.003,
+      "bpjs_tk_salary_cap": 5000000
+    }
+  },
+  "payroll_entries": {
+    "2026-02": [
+      {
+        "nik": "3271062612000018",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": 0
+      },
+      {
+        "nik": "3402122812860002",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "0000000000000000",
+        "hari_kerja_aktual": 14,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3578105610980006",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3509066607020002",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3516132404020001",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 5000000,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3506251905960002",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3509031207020013",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "1802180809010001",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3515182611990006",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3505101808040002",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "0000000000000001",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": 0,
+        "makan_override": 0
+      },
+      {
+        "nik": "3523037103030001",
+        "hari_kerja_aktual": 17,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3515153107010001",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": 0,
+        "makan_override": 0
+      },
+      {
+        "nik": "6201026602010003",
+        "hari_kerja_aktual": 7,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3509050202010002",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3578030810010002",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3578012501030002",
+        "hari_kerja_aktual": 10,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3522082502850005",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3524013107840001",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [
+          {
+            "name": "Cicilan Pinjaman",
+            "amount": 400000
+          }
+        ],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      },
+      {
+        "nik": "3522081109070003",
+        "hari_kerja_aktual": 19,
+        "overtime_hours": 0.0,
+        "overtime_rate_per_hour": 0,
+        "bonus": 0,
+        "potongan_internal": [],
+        "fasilitas_override": null,
+        "transport_override": null,
+        "makan_override": null
+      }
+    ]
+  }
+}

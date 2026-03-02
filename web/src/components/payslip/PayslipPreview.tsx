@@ -33,7 +33,6 @@ export function PayslipPreview({ payslip: s, pdfMode }: Props) {
   const deductRows: [string, number][] = [
     ...(s.bpjs_kes_employee > 0 ? [["BPJS Kesehatan", s.bpjs_kes_employee] as [string, number]] : []),
     ...(s.bpjs_jht_employee > 0 ? [["BPJS JHT", s.bpjs_jht_employee] as [string, number]] : []),
-    ...(s.pph21 > 0 ? [["PPH 21", s.pph21] as [string, number]] : []),
     ...s.potongan_internal_items
       .filter((i) => i.amount > 0)
       .map((i) => [i.name, i.amount] as [string, number]),
@@ -53,6 +52,7 @@ export function PayslipPreview({ payslip: s, pdfMode }: Props) {
         <img src="/logo.svg" alt="BillAndSlip" className="h-8 w-auto shrink-0" />
         <div>
           <h1 className="text-lg font-bold text-gray-900">SLIP GAJI KARYAWAN</h1>
+          <p className="text-xs font-semibold text-gray-700">PT. Tito Digital Kreasi</p>
           <p className="text-xs text-gray-600 mt-0.5">Periode: {s.period_label}</p>
         </div>
       </div>
@@ -153,8 +153,7 @@ export function PayslipPreview({ payslip: s, pdfMode }: Props) {
       )}
 
       <p className="text-xs text-gray-400 mt-4 text-center">
-        PPH 21 dihitung menggunakan metode progresif tahunan (PMK 252/2008). Dokumen ini digenerate
-        secara otomatis.
+        Dokumen ini digenerate secara otomatis.
       </p>
     </div>
   );

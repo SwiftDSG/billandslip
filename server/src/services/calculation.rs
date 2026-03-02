@@ -64,16 +64,8 @@ pub fn compute_payslip(
     let bpjs_jkk_employer = bpjs_tk_base * config.bpjs_jkk_employer_rate;
     let bpjs_jkm_employer = bpjs_tk_base * config.bpjs_jkm_employer_rate;
 
-    // 8. PPH 21 — annualization progressive method
-    let pph21 = if employee.status_ptkp.is_empty() {
-        0.0
-    } else {
-        let ptkp = ptkp_value(&employee.status_ptkp);
-        let annual_gross =
-            (employee.gaji_pokok as f64 + employee.tunjangan as f64 + fasilitas as f64) * 12.0;
-        let pkp = (annual_gross - ptkp as f64).max(0.0);
-        progressive_tax(pkp) / 12.0
-    };
+    // 8. PPH 21 — disabled per company decision; withheld externally
+    let pph21 = 0.0_f64;
 
     // 9. Totals
     let total_pendapatan = gaji_prorata
@@ -89,7 +81,6 @@ pub fn compute_payslip(
 
     let total_potongan = bpjs_kes_employee
         + bpjs_jht_employee
-        + pph21
         + potongan_internal as f64;
 
     // Fasilitas are non-cash benefits; excluded from cash take-home pay
@@ -306,7 +297,6 @@ mod tests {
         e_entry.potongan_internal =
             vec![DeductionItem { name: "Cicilan Pinjaman".into(), amount: 400_000 }];
         let slip = compute_payslip(&e, &e_entry, &feb_config());
-        // Annual gross = (3500000 + 220000) * 12 = 44_640_000 < PTKP K/1 (63M) → PPH21 = 0
         assert_eq!(slip.pph21, 0.0);
         // BPJS Kes: cap(5_288_796)*0.01 = 52_887.96 (always cap-based per company policy)
         assert!((slip.bpjs_kes_employee - 52_887.96).abs() < 0.01);
@@ -343,18 +333,6 @@ mod tests {
         let e = emp(3_000_000, 220_000, "TK/0", true, true);
         let slip = compute_payslip(&e, &entry(19), &feb_config());
         assert_eq!(slip.pph21, 0.0);
-    }
-
-    #[test]
-    fn test_pph21_dylan_progressive() {
-        // Annual gross = (18M + 220k + 0) * 12 = 218_640_000
-        // PKP = 218_640_000 - 54_000_000 (TK/0) = 164_640_000
-        // Tax = 60M*0.05 + 104.64M*0.15 = 3_000_000 + 15_696_000 = 18_696_000
-        // Monthly = 18_696_000 / 12 = 1_558_000
-        let e = emp(18_000_000, 220_000, "TK/0", true, true);
-        let slip = compute_payslip(&e, &entry(19), &feb_config());
-        let expected_monthly = 18_696_000.0 / 12.0;
-        assert!((slip.pph21 - expected_monthly).abs() < 1.0);
     }
 
     #[test]
